@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(123, 124, 153);
+}
+label, input{
+    cursor: pointer;
+}
+.Visor{
+    width: 400px;
+    height:30px;
+    background-color: white;
+    
+}
+.segundoConteiner{
+    display: flex;
+    justify-items: space-between;
+    flex-wrap: wrap;
+    width:250px;
+    height:300px;
+    border: 1px solid black;
+}
+.btn{
+    position: relative;
+    display: block;
+    margin-left:10px;
+
+    width: 25px;
+    height: 30px;
+    background-color: lightsalmon;
+    padding: 10px;
+}
